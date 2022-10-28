@@ -10,7 +10,7 @@ inherit pypi setuptools3
 SRC_URI[sha256sum] = "cd880a84bd495ee5bf0687b496ddbc8049d2a9feff056f9343213e83e71737f7"
 
 DEPENDS += " \
-	python3-jupyter_packaging-native \
+	python3-jupyter-packaging-native \
 "
 RDEPENDS:${PN} += " \
 	python3-ipywidgets \

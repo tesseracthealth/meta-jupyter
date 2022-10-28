@@ -6,16 +6,18 @@ LICENSE = "BSD"
 LIC_FILES_CHKSUM = "file://COPYING.md;md5=0d99f15eb14ae0f6bd895f65127d0fa8"
 
 PYPI_PACKAGE = "jupyter_server"
-PN="python3-jupyter_server"
+# PN="python3-jupyter_server"
 
 inherit pypi setuptools3
 
+PYPI_SRC_URI = "https://files.pythonhosted.org/packages/bc/a1/a42a9e2b94d2d5bbf5309064343efbb4f60cd2f18f8497b2e92902a8c7f8/jupyter_server-1.13.5.tar.gz"
 SRC_URI[sha256sum] = "9e3e9717eea3bffab8cfb2ff330011be6c8bbd9cdae5b71cef169fcece2f19d3"
 
 do_install:append() {
 	# this files will be installed by python3-notebook
 	rm -f ${D}${bindir}/jupyter-bundlerextension
 }
+
 
 BBCLASSEXTEND = "native"
 

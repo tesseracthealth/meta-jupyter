@@ -1,12 +1,12 @@
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta
 
 DEPENDS += " \
 	${PYTHON_PN}-prompt-toolkit-native \
 	"
 
 SUMMARY = "Jupyter notebook"
-LICENSE = "BSD"
-LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=8;endline=8;md5=e910b35b0ef4e1f665b9a75d6afb7709"
+LICENSE = "BSD-3-Clause"
+LIC_FILES_CHKSUM = "file://COPYING.md;md5=86d7909bba8bb8a03637ab8020bf6071"
 
 DEPENDS += " \
         ${PYTHON_PN}-ipython-native \
@@ -24,6 +24,7 @@ DEPENDS += " \
         ${PYTHON_PN}-pyzmq-native \
         ${PYTHON_PN}-jupyter-core-native \
         ${PYTHON_PN}-simplegeneric-native \
+        ${PYTHON_PN}-stack-data-native \
         "
 
 RDEPENDS:${PN} += " \
@@ -34,6 +35,7 @@ RDEPENDS:${PN} += " \
         ${PYTHON_PN}-jupyter-client \
         ${PYTHON_PN}-simplegeneric \
         ${PYTHON_PN}-matplotlib-inline \
+        ${PYTHON_PN}-stack-data \
         "
 
 FILES:${PN} += "/usr/share/jupyter"

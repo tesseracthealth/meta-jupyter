@@ -5,7 +5,7 @@ LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=3acab95fd69e0d08e339a87b8bc1081f"
 
 PYPI_PACKAGE="jupyter-packaging"
-PN="python3-jupyter_packaging"
+# PN="python3-jupyter_packaging"
 BBCLASSEXTEND = "native"
 
 SRC_URI[md5sum] = "ce750636406bbf37f59f532379c926e0"

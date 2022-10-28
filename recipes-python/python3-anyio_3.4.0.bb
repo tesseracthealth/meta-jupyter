@@ -1,5 +1,5 @@
 SUMMARY=" AnyIO is a asynchronous compatibility API that allows applications and libraries written against it to run unmodified on asyncio, curio and trio."
-LICENSE = "BSD"
+LICENSE = "MIT"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=c0a769411d2af7894099e8ff75058c9f"
 
 inherit pypi setuptools3
