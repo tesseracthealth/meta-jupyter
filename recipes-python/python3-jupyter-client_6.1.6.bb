@@ -4,7 +4,7 @@ SRC_URI[md5sum] = "ca545481d8a875b5eb66ff48625395ef"
 SRC_URI[sha256sum] = "b360f8d4638bc577a4656e93f86298db755f915098dc763f6fc05da0c5d7a595"
 
 SUMMARY = "Jupyter protocol implementation and client libraries"
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://COPYING.md;md5=d235895c780fa844e875697e16e5787b"
 
 RDEPENDS:${PN} += " \

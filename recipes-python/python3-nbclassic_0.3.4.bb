@@ -1,5 +1,5 @@
 SUMMARY="NBClassic runs the Jupyter Notebook frontend on the Jupyter Server backend."
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=499d1d2265d9af5274240ff36cdb500a"
 
 inherit pypi setuptools3

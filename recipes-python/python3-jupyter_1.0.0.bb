@@ -1,7 +1,7 @@
 inherit pypi setuptools3
 
 SUMMARY = "Jupyter notebook"
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=8;endline=8;md5=e910b35b0ef4e1f665b9a75d6afb7709"
 
 SRC_URI[md5sum] = "25142b08e2ad7142b6f920bc8cc8dfeb"

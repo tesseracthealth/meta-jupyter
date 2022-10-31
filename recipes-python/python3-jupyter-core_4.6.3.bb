@@ -1,7 +1,7 @@
 inherit pypi setuptools3
 
 SUMMARY = "Jupyter core package"
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://COPYING.md;md5=3956703c5c1fefa0fc1876fc9b4c7499"
 
 RDEPENDS:${PN} += " \

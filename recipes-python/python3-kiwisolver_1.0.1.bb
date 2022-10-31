@@ -1,7 +1,7 @@
 inherit pypi setuptools3
 
 SUMMARY = "Kiwi is an efficient C++ implementation of the Cassowary constraint solving algorithm"
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://COPYING.txt;md5=0fa569fba9352e311f2acb8ba1657550"
 
 SRC_URI[md5sum] = "e2a1718b837e2cd001f7c06934616fcd"

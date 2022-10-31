@@ -1,5 +1,5 @@
 SUMMARY="sniffio: Sniff out which async library your code is running under"
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=fa7b86389e58dd4087a8d2b833e5fe96"
 
 inherit pypi setuptools3

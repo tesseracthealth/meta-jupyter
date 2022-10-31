@@ -1,7 +1,7 @@
 inherit pypi setuptools3
 
 SUMMARY = "Converting Jupyter Notebooks"
-LICENSE = "BSD"
+LICENSE = "BSD-3-Clause"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=d235895c780fa844e875697e16e5787b"
 
 # Requirements from PIP:
